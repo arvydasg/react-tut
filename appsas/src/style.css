@@ -47,6 +47,7 @@
 .card--image {
   width: 100%;
   border-radius: 9px;
+  height: 200px;
 }
 
 .card--stats {
