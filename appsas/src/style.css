@@ -1,3 +1,59 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.nav {
+  padding: 20px 36px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  display: flex;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero p {
+  max-width: 500px;
+}
+
+/* card */
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
