@@ -11,13 +11,8 @@ function Page() {
     return (
       <Card
         key={item.id} /* Just to remove the warning, giving smth unique*/
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
-        title={item.title}
-        price={item.price}
-        openSpots={item.openSpots}
+        item={item}
+        /* or use spread syntax {...item}, then won't have to type .item 4:35h*/
       />
     );
   });
