@@ -1,0 +1,95 @@
+const data = [
+  {
+    id: 1,
+    title: "Learn to swim with Meilutyte",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/ruta.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "On site",
+    openSpots: 0,
+  },
+  {
+    id: 2,
+    title: "Learn Dancing with volves",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer3.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 5,
+  },
+  {
+    id: 3,
+    title: "Learn salsa",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer2.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "On site",
+    openSpots: 5,
+  },
+  {
+    id: 4,
+    title: "Learn swimming",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer1.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 27,
+  },
+  {
+    id: 5,
+    title: "Learn swimming",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer1.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 52,
+  },
+  {
+    id: 6,
+    title: "Learn swimming",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer1.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 27,
+  },
+  {
+    id: 7,
+    title: "Learn swimming",
+    description: "This and that",
+    price: 123,
+    coverImg: "/publicImages/swimmer1.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 24,
+  },
+];
+
+export default data;

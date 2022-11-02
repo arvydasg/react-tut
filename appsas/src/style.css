@@ -37,11 +37,16 @@
 .cards {
   display: flex;
   gap: 20px;
+  overflow-y: scroll;
 }
 
 .card {
-  width: 175px;
+  width: 155px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .card--image {
@@ -57,4 +62,28 @@
 
 .card--star {
   height: 14px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 5px 8px;
+  color: black;
+  font-weight: 900;
+  font-size: 10px;
+}
+
+.card--badge-right {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 5px;
+  background-color: orangered;
+  padding: 5px 8px;
+  color: black;
+  font-weight: 900;
+  font-size: 10px;
 }
