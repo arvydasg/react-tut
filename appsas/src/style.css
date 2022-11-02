@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .container {
   max-width: 600px;
   margin: auto;
@@ -6,7 +11,7 @@
 .header {
   background-color: lightcoral;
   color: white;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -14,6 +19,7 @@
   gap: 10px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -21,4 +27,51 @@
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+}
+
+.card--right {
+  padding: 20px;
+}
+
+.card i {
+  color: red;
+  padding-right: 5px;
+}
+
+.card--location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+.card--gmaps {
+  color: grey;
+}
+
+.card--title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card--date {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.card--image {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card--topInfo {
+  display: flex;
+  align-items: center;
 }
