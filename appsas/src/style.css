@@ -5,9 +5,12 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right, purple, pink);
+  padding: 20px;
+  color: white;
 }
 
 .nav-items {
@@ -16,23 +19,6 @@
 }
 
 .nav-image {
-  width: 60px;
+  width: 50px;
   cursor: pointer;
-}
-
-.nav-items > li {
-  padding: 10px;
-}
-
-.nav-items > li:hover {
-  color: red;
-  cursor: pointer;
-}
-.footer {
-  background-color: dimgrey;
-  color: white;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  padding: 3px;
 }

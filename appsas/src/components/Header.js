@@ -1,5 +1,4 @@
-import Navbar from "./Navbar";
-import reactLogo from "../images/react-logo.png";
+import reactLogo from "../images/troll-face.png";
 
 export default function Header() {
   return (
@@ -8,7 +7,7 @@ export default function Header() {
         <a href="./index.html">
           <img className="nav-image" src={reactLogo} />
         </a>
-        <Navbar />
+        <h1>Meme Generator</h1>
       </nav>
     </header>
   );
