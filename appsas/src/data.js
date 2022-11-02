@@ -17,7 +17,7 @@ const data = [
     title: "Learn Dancing with volves",
     description: "This and that",
     price: 123,
-    coverImg: "/publicImages/swimmer3.jpg",
+    coverImg: "/publicImages/swimmer2.jpg",
     stats: {
       rating: 5.0,
       reviewCount: 30,
@@ -30,7 +30,7 @@ const data = [
     title: "Learn salsa",
     description: "This and that",
     price: 123,
-    coverImg: "/publicImages/swimmer2.jpg",
+    coverImg: "/publicImages/swimmer3.jpg",
     stats: {
       rating: 5.0,
       reviewCount: 30,
